@@ -1,0 +1,36 @@
+    1  cd mysite
+    2  git status
+    3  git add .
+    4  git status
+    5  git commit -m "attention deux minutes c'est parti. il voit en reve la cathedrale de rouen"
+    6  mkvirtualenv flask-tutorial --python=python3.6
+    7  pip install flask flask-login flask-sqlalchemy mysql-connector-python
+    8  pip freeze > requirements.txt
+    9  git status
+   10  git add .
+   11  git commit -m "qcm a kto point com. la semaine derniere pour commencer la saison"
+   12  pip install Flask-Migrate
+   13  export FLASK_APP=flask_app.py
+   14  flask db init
+   15  flask db migrate
+   16  flask db stamp head
+   17  pip freeze > requirements.txt
+   18  git status
+   19  git add .
+   20  git commit -m "j'esp[ere que vos maris vous regardent tous les deux"
+   21  flask db migrate
+   22  flask db upgrade
+   23  git status
+   24  git add .
+   25  git commit -m "radio notre dame, premez la carte, jocelyne. les anges"
+   26  flask db migrate
+   27  flask db upgrade
+   28  flask shell
+   29  echo "# -user-giuseppechiaretti-" >> README.md
+   30  git init
+   31  git add README.md
+   32  git commit -m "first commit"
+   33  git remote add origin https://github.com/kevinradjit/-user-giuseppechiaretti-.git
+   34  git push -u origin master
+   35  history
+   36  history > history.txt
